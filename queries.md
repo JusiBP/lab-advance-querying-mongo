@@ -49,7 +49,7 @@ Limit: 10
 
 ### 6. All the companies that don't include the `partners` field.
 
-Filter: 
+Filter: { partners: { $exists: false } }
 Project: 
 Sort: 
 Collation: 
